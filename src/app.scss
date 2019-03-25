@@ -1,0 +1,72 @@
+.app {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	.emoji-paint {
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	}
+}
+
+.main-container{
+	padding: 22px 20px 20px 25px;
+}
+
+.error{
+	font-size: 12px;
+	color: #b5b5b5;
+	margin-top: 5px;
+}
+
+.user-info{
+	.user-info__icon{
+		height: 38px;
+		width: 38px;
+		border-radius: 5px;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.user-info__name{
+		font-weight: 700;
+	}
+
+	.user-info__time{
+		font-size: 12px;
+		margin-left: 10px;
+		color: #8d8d8d;
+	}
+}
+
+
+.grid-container{
+	overflow: hidden;
+	display: block;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+
+.grid-controls{
+	text-align: right;
+	.btn{
+		border-radius: 4px;
+		border: 0;
+		padding: 10px;
+		font-weight: 600;
+		font-size: 14px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 5px;   
+		border: 1px solid rgba(139, 139, 139, 0.937);
+	}
+	.copy-btn{
+		background-color: #2fac71; 
+		color: #ffffff;
+	}
+
+	.clear-btn{
+		background-color: #ffffff;
+	}
+}
